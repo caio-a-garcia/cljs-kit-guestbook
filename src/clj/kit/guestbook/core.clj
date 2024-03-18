@@ -11,7 +11,8 @@
 
     ;; Routes
     [kit.guestbook.web.routes.api]
-    )
+    
+    [kit.guestbook.web.routes.pages])
   (:gen-class))
 
 ;; log uncaught exceptions in threads
