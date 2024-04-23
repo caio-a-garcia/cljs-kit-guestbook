@@ -35,3 +35,6 @@ Note that this alias runs nREPL during development. To run nREPL in production (
 Run `clj -M:dev:nrepl` or `make repl`.
 
 Note that, just like with [CIDER](#cider), this alias runs nREPL during development. To run nREPL in production (typically when the system starts), use the kit-nrepl library through the +nrepl profile as described in [the documentation](https://kit-clj.github.io/docs/profiles.html#profiles).
+
+## Change log
+According to this [chat](https://clojurians-log.clojureverse.org/shadow-cljs/2021-03-26), `the :devtools :http-root and :http-port are old configuration and were replaced by :dev-http`.
